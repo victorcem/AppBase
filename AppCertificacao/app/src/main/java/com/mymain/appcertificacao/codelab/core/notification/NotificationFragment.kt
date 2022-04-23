@@ -16,7 +16,6 @@ import androidx.fragment.app.Fragment
 import com.mymain.appcertificacao.R
 import kotlinx.android.synthetic.main.fragment_notification.*
 
-
 private const val NOTIFICATION_ID = 0
 private const val PRIMARY_CHANNEL_ID = "primary_notification_channel"
 private const val ACTION_UPDATE = "ACTION_UPDATE NOTIFICATION"
@@ -140,6 +139,7 @@ class NotificationFragment : Fragment(R.layout.fragment_notification) {
             .setDefaults(NotificationCompat.DEFAULT_ALL)
             .setAutoCancel(false)
     }
+
     private fun registerNotificationReceiver() {
         val notificationActionFilters = IntentFilter()
         notificationActionFilters.addAction(ACTION_UPDATE)
@@ -154,7 +154,7 @@ class NotificationFragment : Fragment(R.layout.fragment_notification) {
     }
 
     inner class NotificationReceiver : BroadcastReceiver() {
-        override fun onReceive(context: Context, intent : Intent) {
+        override fun onReceive(context: Context, intent: Intent) {
             when (intent.action) {
                 ACTION_UPDATE -> updateNotification()
                 ACTION_CANCEL -> {
@@ -174,7 +174,7 @@ class NotificationFragment : Fragment(R.layout.fragment_notification) {
         }
     }
 
-    private fun registerDynamicReceiver(dynamicReceiver: BroadcastReceiver){
+    private fun registerDynamicReceiver(dynamicReceiver: BroadcastReceiver) {
         IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED).also {
             requireActivity().registerReceiver(dynamicReceiver, it)
         }
