@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Study Guide: App for Certification<xliff:g id="star">\u2605</xliff:g></string>
+    <string translatable="false" name="app_name">Study Guide: App for Certification<xliff:g id="star">\u2605</xliff:g></string>
     <string name="notify_me">Notify Me!</string>
     <string name="update_me">Update Me!</string>
     <string name="cancel_me">Cancel Me!</string>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string translatable="false" name="app_name">Guia de estudos: aplicativo para certificação<xliff:g id="star">\u2605</xliff:g></string>
+    <string name="notify_me">Me Avise!</string>
+    <string name="update_me">Me Atualize!</string>
+    <string name="cancel_me">Me Cancele!</string>
+</resources>
