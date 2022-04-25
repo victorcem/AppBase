@@ -128,5 +128,6 @@
     <string name="attachment_summary_on" translatable="false">Baixar automaticamente Anexos de Emails</string>
     <string name="attachment_summary_off" translatable="false">Apenas baixar Anexos quando solicitados manualmente</string>
     <string name="computationError" translatable="false">Impossível Resolver Esse Calculo!</string>
+    <string name="products">Products</string>
 
 </resources>

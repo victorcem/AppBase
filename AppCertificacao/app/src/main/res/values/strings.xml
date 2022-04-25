@@ -87,7 +87,7 @@
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Word not saved because it is empty.</string>
     <string name="add_word">Add word</string>
-    <string translatable="false" name="duplicated">Duplicado - já visto em: Room with View</string>
+    <string name="duplicated" translatable="false">Duplicado - já visto em: Room with View</string>
     <string name="duplicated_dynamic" translatable="false">Duplicado - já visto em: %s</string>
     <string name="notify_me">Notify Me!</string>
     <string name="update_me">Update Me!</string>
@@ -105,14 +105,14 @@
     <string name="play_again">Play Again</string>
     <string name="you_scored">You Scored</string>
     <string name="title_text">guess the word!</string>
-    <string translatable="false" name="play_button">Play</string>
+    <string name="play_button" translatable="false">Play</string>
     <string name="get_ready">Get ready to</string>
     <string name="got_it">Got it</string>
     <string name="end_game">End game</string>
     <string name="word_is">The word is…</string>
     <string name="input_password_hint_text">Password</string>
-    <string translatable="false" name="input_password_error_text_default">Default Error Text</string>
-    <string translatable="false" name="input_helper_text_blank_space">default Helper Text</string>
+    <string name="input_password_error_text_default" translatable="false">Default Error Text</string>
+    <string name="input_helper_text_blank_space" translatable="false">default Helper Text</string>
 
     <!-- Codelab App Settings - Preference Titles -->
     <string name="messages_header" translatable="false">Configurações de Resposta</string>
@@ -128,5 +128,6 @@
     <string name="attachment_summary_on" translatable="false">Baixar automaticamente Anexos de Emails</string>
     <string name="attachment_summary_off" translatable="false">Apenas baixar Anexos quando solicitados manualmente</string>
     <string name="computationError" translatable="false">Impossível Resolver Esse Calculo!</string>
+    <string name="products">Products</string>
 
 </resources>

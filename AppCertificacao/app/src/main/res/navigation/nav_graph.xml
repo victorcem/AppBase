@@ -19,6 +19,12 @@
         <action
             android:id="@+id/action_mainFragment_to_selectImageFragment"
             app:destination="@id/selectImageFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_materialComponentsFragment"
+            app:destination="@id/materialComponentsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_interactiveUiFragment"
+            app:destination="@id/interactiveUiFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -55,6 +61,36 @@
         tools:layout="@layout/fragment_blur" >
         <action
             android:id="@+id/action_blurFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/materialComponentsFragment"
+        android:name="com.mymain.appcertificacao.codelab.userinterface.materialcomponents.MaterialComponentsFragment"
+        android:label="fragment_material_components"
+        tools:layout="@layout/fragment_material_components" >
+        <action
+            android:id="@+id/action_materialComponentsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_materialComponentsFragment_to_productGridFragment"
+            app:destination="@id/productGridFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productGridFragment"
+        android:name="com.mymain.appcertificacao.codelab.userinterface.materialcomponents.ProductGridFragment"
+        android:label="fragment_product_grid"
+        tools:layout="@layout/fragment_product_grid" >
+        <action
+            android:id="@+id/action_productGridFragment_to_materialComponentsFragment"
+            app:destination="@id/materialComponentsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/interactiveUiFragment"
+        android:name="com.mymain.appcertificacao.codelab.userinterface.interactiveui.InteractiveUiFragment"
+        android:label="fragment_interactive_ui"
+        tools:layout="@layout/fragment_interactive_ui" >
+        <action
+            android:id="@+id/action_interactiveUiFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
 </navigation>
