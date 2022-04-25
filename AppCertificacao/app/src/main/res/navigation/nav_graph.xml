@@ -31,6 +31,9 @@
         <action
             android:id="@+id/action_mainFragment_to_sendFragment"
             app:destination="@id/sendFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_recyclerViewFragment2"
+            app:destination="@id/recyclerViewFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -127,5 +130,13 @@
             app:launchSingleTop="true"
             app:popUpTo="@id/sendFragment"
             app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerViewFragment"
+        android:name="com.mymain.appcertificacao.codelab.userinterface.recyclerview.RecyclerViewFragment"
+        android:label="RecyclerViewFragment" >
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_mainFragment2"
+            app:destination="@id/mainFragment" />
     </fragment>
 </navigation>

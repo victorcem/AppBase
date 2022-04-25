@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.166" />
+        <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable/ic_explosion.xml" value="0.166" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable/ic_favorite.xml" value="0.1655" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1655" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable/ic_notification.xml" value="0.1655" />
@@ -16,10 +17,12 @@
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_material_components.xml" value="0.2441123188405797" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_notification.xml" value="0.2427536231884058" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_product_grid.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_recycler_view.xml" value="0.2441123188405797" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_reply.xml" value="0.2441123188405797" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_select_image.xml" value="0.2441123188405797" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_send.xml" value="0.2441123188405797" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/fragment_toast_snake.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/layout/wordlist_item.xml" value="0.2441123188405797" />
       </map>
     </option>
   </component>

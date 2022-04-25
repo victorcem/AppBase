@@ -1,0 +1,99 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="word_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Definicao do estilo das bordas dos botoes de score - o outline que usa o primary color -->
+<!--    <style name="ScoreButtons" parent="Widget.AppCompat.Button">-->
+<!--        <item name="android:background">@drawable/button_background</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Definicao do estilo dos botoes que herda do ScoreButtons &ndash;&gt;-->
+<!--    <style name="PlusButtons" parent="ScoreButtons">-->
+<!--        <item name="android:src">@drawable/ic_plus</item>-->
+<!--        <item name=-->
+<!--            "android:contentDescription">@string/plus_button_description</item>-->
+<!--    </style>-->
+
+<!--    <style name="MinusButtons" parent="ScoreButtons">-->
+<!--        <item name="android:src">@drawable/ic_minus</item>-->
+<!--        <item name=-->
+<!--            "android:contentDescription">@string/minus_button_description</item>-->
+<!--    </style>-->
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+
+    <string name="plus_button_description">increase score plus one</string>
+    <string name="minus_button_description">decrease score minus one</string>
+
+    <!-- Button Styles -->
+    <style name="GoButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/ok_green_color</item>
+        <item name="colorControlHighlight">@color/selected_green_color</item>
+        <item name="android:textColor">@color/white_text_color</item>
+        <item name="colorAccent">@color/selected_green_color</item>
+    </style>
+
+    <style name="SkipButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="android:textColor">@color/grey_button_color</item>
+        <item name="colorControlHighlight">@color/skip_red_color</item>
+    </style>
+
+
+    <!-- codelab custom view -->
+    <style name="CustomComponents.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.CustomComponents.TextInputLayout</item>
+        <item name="errorIconDrawable">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.CustomComponents.TextInputLayout" parent="">
+        <item name="android:background">@null</item>
+        <item name="android:textColorPrimary">@color/white_text_color</item>
+        <item name="colorError">#995254</item>
+        <item name="errorIconDrawable">@null</item>
+        <!-- Selector color -->
+        <item name="colorControlActivated">?colorPrimary</item>
+        <item name="colorOnSurface">?colorPrimary</item>
+        <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.FilledBox</item>
+    </style>
+
+    <style name="CustomComponents.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.CustomComponents.TextInputLayout.OutlinedBox</item>
+        <item name="errorIconDrawable">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.CustomComponents.TextInputLayout.OutlinedBox" parent="">
+        <item name="colorError">#995254</item>
+
+        <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox</item>
+        <item name="android:background">@null</item>
+    </style>
+
+
+</resources>
