@@ -27,11 +27,11 @@
         <activity
             android:name="com.mymain.appcertificacao.codelab.userinterface.usernavigation.oldschool.UserNavigationActivity"
             android:label="@string/title_activity_show_tabs"
-            android:parentActivityName="br.com.programadordeelite.gdc.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.programadordeelite.gdc.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
          <!-- FIX PARA O PROBLEMA COM android:exported OCASIONADO POR LIBS TERCEIRAS -->
         <activity

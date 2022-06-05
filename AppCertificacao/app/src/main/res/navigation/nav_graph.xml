@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_mainFragment_to_tabHostFragment"
             app:destination="@id/tabHostFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_customViewFragment"
+            app:destination="@id/customViewFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -170,4 +173,13 @@
         android:name="com.mymain.appcertificacao.codelab.userinterface.usernavigation.tab.TabHostFragment"
         android:label="fragment_tab_host"
         tools:layout="@layout/fragment_tab_host" />
+    <fragment
+        android:id="@+id/customViewFragment"
+        android:name="com.mymain.appcertificacao.codelab.userinterface.customview.CustomViewFragment"
+        android:label="fragment_custom_view"
+        tools:layout="@layout/fragment_custom_view" >
+        <action
+            android:id="@+id/action_customViewFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>

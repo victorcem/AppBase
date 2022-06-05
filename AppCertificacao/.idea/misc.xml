@@ -5,10 +5,14 @@
       <map>
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/activity_user_navigation.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/content_user_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_custom_view.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_main.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_tab_host.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_tab_one.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_tab_three.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_tab_two.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/item_password.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/item_password_outlined.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.166" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable/ic_explosion.xml" value="0.166" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable/ic_favorite.xml" value="0.1655" />
