@@ -46,6 +46,9 @@
         <action
             android:id="@+id/action_mainFragment_to_customViewFragment"
             app:destination="@id/customViewFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_drawerFragment"
+            app:destination="@id/drawerFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -180,6 +183,15 @@
         tools:layout="@layout/fragment_custom_view" >
         <action
             android:id="@+id/action_customViewFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/drawerFragment"
+        android:name="com.mymain.appcertificacao.codelab.userinterface.usernavigation.drawer.DrawerFragment"
+        android:label="fragment_drawer"
+        tools:layout="@layout/fragment_drawer" >
+        <action
+            android:id="@+id/action_drawerFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
 </navigation>

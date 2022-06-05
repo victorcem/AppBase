@@ -30,5 +30,6 @@ class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main) {
         binding.codelabAccessibility.setOnClickListener { navTo(R.id.accessibilityFragment) }
         binding.codelabUserNavigationTab.setOnClickListener { navTo(R.id.tabHostFragment) }
         binding.codelabCreateCustomView.setOnClickListener { navTo(R.id.customViewFragment) }
+        binding.codelabUserNavigationDrawer.setOnClickListener { navTo(R.id.drawerFragment) }
     }
 }
