@@ -24,23 +24,23 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <!-- Definicao do estilo das bordas dos botoes de score - o outline que usa o primary color -->
-<!--    <style name="ScoreButtons" parent="Widget.AppCompat.Button">-->
-<!--        <item name="android:background">@drawable/button_background</item>-->
-<!--    </style>-->
+     Definicao do estilo das bordas dos botoes de score - o outline que usa o primary color
+    <style name="ScoreButtons" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
 
-<!--    &lt;!&ndash; Definicao do estilo dos botoes que herda do ScoreButtons &ndash;&gt;-->
-<!--    <style name="PlusButtons" parent="ScoreButtons">-->
-<!--        <item name="android:src">@drawable/ic_plus</item>-->
-<!--        <item name=-->
-<!--            "android:contentDescription">@string/plus_button_description</item>-->
-<!--    </style>-->
+    <!-- Definicao do estilo dos botoes que herda do ScoreButtons -->
+    <style name="PlusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_plus</item>
+        <item name=
+            "android:contentDescription">@string/plus_button_description</item>
+    </style>
 
-<!--    <style name="MinusButtons" parent="ScoreButtons">-->
-<!--        <item name="android:src">@drawable/ic_minus</item>-->
-<!--        <item name=-->
-<!--            "android:contentDescription">@string/minus_button_description</item>-->
-<!--    </style>-->
+    <style name="MinusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_minus</item>
+        <item name=
+            "android:contentDescription">@string/minus_button_description</item>
+    </style>
 
     <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
         <item name="colorButtonNormal">@color/colorAccent</item>

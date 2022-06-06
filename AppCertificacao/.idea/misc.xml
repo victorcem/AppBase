@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/button_background.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_menu_manage.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_menu_send.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_menu_share.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_minus.xml" value="0.1" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_plus.xml" value="0.1" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_settings.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/ic_status.xml" value="0.1" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
@@ -23,12 +27,13 @@
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_tab_one.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_tab_three.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_tab_two.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/fragment_theme.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/item_password.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/item_password_outlined.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/layout/nav_header_main.xml" value="0.23541666666666666" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/menu/activity_main_drawer.xml" value="0.23541666666666666" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/menu/menu_main.xml" value="0.23541666666666666" />
-        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/menu/menu_setitings.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/menu/menu_setitings.xml" value="0.11764705882352941" />
         <entry key="..\:/Users/Victo/Desktop/MyApp/AppBase/AppCertificacao/app/src/main/res/menu/theme_menu.xml" value="0.23541666666666666" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.166" />
         <entry key="..\:/Users/Victo/Desktop/app/AppBase/AppCertificacao/app/src/main/res/drawable/ic_explosion.xml" value="0.166" />

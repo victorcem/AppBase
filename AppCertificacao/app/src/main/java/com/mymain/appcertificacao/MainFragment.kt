@@ -31,5 +31,6 @@ class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main) {
         binding.codelabUserNavigationTab.setOnClickListener { navTo(R.id.tabHostFragment) }
         binding.codelabCreateCustomView.setOnClickListener { navTo(R.id.customViewFragment) }
         binding.codelabUserNavigationDrawer.setOnClickListener { navTo(R.id.drawerFragment) }
+        binding.codelabThemesTouches.setOnClickListener { navTo(R.id.themeFragment) }
     }
 }

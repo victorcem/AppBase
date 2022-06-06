@@ -49,6 +49,9 @@
         <action
             android:id="@+id/action_mainFragment_to_drawerFragment"
             app:destination="@id/drawerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_themeFragment"
+            app:destination="@id/themeFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -192,6 +195,18 @@
         tools:layout="@layout/fragment_drawer" >
         <action
             android:id="@+id/action_drawerFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="com.mymain.appcertificacao.codelab.userinterface.themes.ThemeFragment"
+        android:label="fragment_theme"
+        tools:layout="@layout/fragment_theme" >
+        <action
+            android:id="@+id/action_themeFragment_self"
+            app:destination="@id/themeFragment" />
+        <action
+            android:id="@+id/action_themeFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
 </navigation>
