@@ -32,5 +32,7 @@ class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main) {
         binding.codelabCreateCustomView.setOnClickListener { navTo(R.id.customViewFragment) }
         binding.codelabUserNavigationDrawer.setOnClickListener { navTo(R.id.drawerFragment) }
         binding.codelabThemesTouches.setOnClickListener { navTo(R.id.themeFragment) }
+        binding.codelabMenuPickers.setOnClickListener { navTo(R.id.menuFragment) }
+        binding.codelabThemesTouchesBaterry.setOnClickListener { navTo(R.id.batteryFragment) }
     }
 }

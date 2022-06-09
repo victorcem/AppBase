@@ -129,5 +129,6 @@
     <string name="attachment_summary_off" translatable="false">Apenas baixar Anexos quando solicitados manualmente</string>
     <string name="computationError" translatable="false">Impossível Resolver Esse Calculo!</string>
     <string name="products">Products</string>
+    <string name="long_click_for_context_menu">(long click for context menu)</string>
 
 </resources>
