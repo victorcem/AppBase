@@ -34,5 +34,6 @@ class MainFragment : androidx.fragment.app.Fragment(R.layout.fragment_main) {
         binding.codelabThemesTouches.setOnClickListener { navTo(R.id.themeFragment) }
         binding.codelabMenuPickers.setOnClickListener { navTo(R.id.menuFragment) }
         binding.codelabThemesTouchesBaterry.setOnClickListener { navTo(R.id.batteryFragment) }
+        binding.codelabRoomWithView.setOnClickListener { navTo(R.id.wordFragment) }
     }
 }
