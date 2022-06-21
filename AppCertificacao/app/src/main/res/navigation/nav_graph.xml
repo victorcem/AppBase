@@ -61,6 +61,9 @@
         <action
             android:id="@+id/action_mainFragment_to_wordFragment"
             app:destination="@id/wordFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_sharedPrefFragment"
+            app:destination="@id/sharedPrefFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -265,5 +268,14 @@
         <action
             android:id="@+id/action_newWordFragment_to_wordFragment"
             app:destination="@id/wordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sharedPrefFragment"
+        android:name="com.mymain.appcertificacao.codelab.datamanagement.sharedprefs.SharedPrefFragment"
+        android:label="fragment_shared_pref"
+        tools:layout="@layout/fragment_shared_pref" >
+        <action
+            android:id="@+id/action_sharedPrefFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
 </navigation>
